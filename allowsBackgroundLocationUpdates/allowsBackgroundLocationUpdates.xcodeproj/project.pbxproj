@@ -15,6 +15,7 @@
 		ED2582DE1CC481A300D817E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2582DC1CC481A300D817E1 /* LaunchScreen.storyboard */; };
 		ED2582E91CC481A300D817E1 /* allowsBackgroundLocationUpdatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2582E81CC481A300D817E1 /* allowsBackgroundLocationUpdatesTests.m */; };
 		ED2582F41CC481A300D817E1 /* allowsBackgroundLocationUpdatesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2582F31CC481A300D817E1 /* allowsBackgroundLocationUpdatesUITests.m */; };
+		ED2583031CC4872D00D817E1 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2583021CC4872D00D817E1 /* MyAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		ED2582EF1CC481A300D817E1 /* allowsBackgroundLocationUpdatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = allowsBackgroundLocationUpdatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2582F31CC481A300D817E1 /* allowsBackgroundLocationUpdatesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = allowsBackgroundLocationUpdatesUITests.m; sourceTree = "<group>"; };
 		ED2582F51CC481A300D817E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2583011CC4872D00D817E1 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		ED2583021CC4872D00D817E1 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				ED2582D21CC481A300D817E1 /* AppDelegate.m */,
 				ED2582D41CC481A300D817E1 /* ViewController.h */,
 				ED2582D51CC481A300D817E1 /* ViewController.m */,
+				ED2583011CC4872D00D817E1 /* MyAnnotation.h */,
+				ED2583021CC4872D00D817E1 /* MyAnnotation.m */,
 				ED2582D71CC481A300D817E1 /* Main.storyboard */,
 				ED2582DA1CC481A300D817E1 /* Assets.xcassets */,
 				ED2582DC1CC481A300D817E1 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				ED2582D61CC481A300D817E1 /* ViewController.m in Sources */,
 				ED2582D31CC481A300D817E1 /* AppDelegate.m in Sources */,
+				ED2583031CC4872D00D817E1 /* MyAnnotation.m in Sources */,
 				ED2582D01CC481A300D817E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				ED2582FA1CC481A300D817E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED2582FB1CC481A300D817E1 /* Build configuration list for PBXNativeTarget "allowsBackgroundLocationUpdatesTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				ED2582FD1CC481A300D817E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED2582FE1CC481A300D817E1 /* Build configuration list for PBXNativeTarget "allowsBackgroundLocationUpdatesUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				ED2583001CC481A300D817E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

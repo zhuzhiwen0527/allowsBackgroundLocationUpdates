@@ -9,5 +9,9 @@
 #import "MyAnnotation.h"
 
 @implementation MyAnnotation
-
+- (void)setCoordinate:(CLLocationCoordinate2D)newCoordinate NS_AVAILABLE(10_9, 4_0){
+    
+    _coordinate = newCoordinate;
+    
+}
 @end

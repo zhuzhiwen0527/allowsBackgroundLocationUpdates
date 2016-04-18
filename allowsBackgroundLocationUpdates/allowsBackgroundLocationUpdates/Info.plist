@@ -36,5 +36,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>定位</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>持续定位会不利于电池寿命</string>
+	<key>UISupportInterfaceOrientations</key>
+	<array/>
 </dict>
 </plist>
