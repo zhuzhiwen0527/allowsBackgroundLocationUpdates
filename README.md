@@ -1,0 +1,2 @@
+# allowsBackgroundLocationUpdates
+后天持续定位
